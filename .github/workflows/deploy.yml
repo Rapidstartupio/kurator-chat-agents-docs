@@ -25,5 +25,5 @@ jobs:
             rm -rf rapidagent-docs
             git clone https://x-access-token:${{ secrets.ORG_GH_TOKEN }}@github.com/Rapidstartupio/rapidagent-docs.git
             cd rapidagent-docs
-            mintlify dev --port 3333
+            mintlify dev --port 3333 2>&1 | tee output.log &
           EOF

@@ -21,9 +21,8 @@ jobs:
       - name: Deploy to production
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} << EOF
-            kill -9 $(sudo lsof -t -i:3333)
             rm -rf rapidagent-docs
             git clone https://x-access-token:${{ secrets.ORG_GH_TOKEN }}@github.com/Rapidstartupio/rapidagent-docs.git
             cd rapidagent-docs
-            nohup mintlify dev --port 3333 > uvicorn.log 2>&1 &
+            mintlify dev --port 3333 &
           EOF

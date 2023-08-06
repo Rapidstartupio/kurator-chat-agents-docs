@@ -1,0 +1,9 @@
+version: '3'
+services:
+  rapidagent-docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rapidagent-docs
+    ports:
+      - "3333:3333"

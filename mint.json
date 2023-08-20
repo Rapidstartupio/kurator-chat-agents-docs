@@ -1,6 +1,6 @@
 {
-  "$schema": "https://api.superagent.sh/openapi.json",
-  "name": "Superagent",
+  "$schema": "https://api.rapidagent.ai/openapi.json",
+  "name": "RapidAgent",
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#e2742b",
@@ -9,11 +9,11 @@
   },
   "topbarLinks": [{
     "name": "Login",
-    "url": "https:/superagent.sh/login"
+    "url": "https:/rapidagent.ai/login"
   }],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://superagent.sh"
+    "url": "https://rapidagent.ai"
   },
   "anchors": [
     {
@@ -24,7 +24,7 @@
     {
       "name": "Github",
       "icon": "github",
-      "url": "https://github.com/homanp/superagent.git"
+      "url": "https://github.com/homanp/RapidAgent.git"
     },
     {
       "name": "Discord",
@@ -128,6 +128,6 @@
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/pelaseyed",
-    "github": "https://github.com/homanp/superagent"
+    "github": "https://github.com/homanp/RapidAgent"
   }
 }

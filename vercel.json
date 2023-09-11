@@ -1,14 +1,13 @@
 {
   "builds": [
     {
-      "src": "mint.json",
+      "src": "build.sh",
       "use": "@vercel/static-build",
       "config": {
         "build": {
           "env": {
             "PATH": "/usr/local/bin:$PATH"
-          },
-          "command": "npm i -g mintlify && mintlify install && mintlify dev"
+          }
         },
         "outputDirectory": "."
       }

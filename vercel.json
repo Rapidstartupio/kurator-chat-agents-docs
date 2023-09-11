@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "scripts": {
+    "build": "npm i -g mintlify && mintlify install",
+    "dev": "npm run build && mintlify dev",
+    "start": "npm run build && mintlify start",
+    "export": "npm run build && mintlify export"
+  }
+}

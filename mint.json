@@ -1,6 +1,6 @@
 {
-  "$schema": "https://api.rapidagent.ai/openapi.json",
-  "name": "RapidAgent",
+  "$schema": "https://api.kurator.ai/openapi.json",
+  "name": "kurator",
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#e2742b",
@@ -9,11 +9,11 @@
   },
   "topbarLinks": [{
     "name": "Login",
-    "url": "https:/rapidagent.ai/login"
+    "url": "https:/kurator.ai/login"
   }],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://rapidagent.ai"
+    "url": "https://kurator.ai"
   },
   "anchors": [
     {
@@ -24,7 +24,7 @@
     {
       "name": "Github",
       "icon": "github",
-      "url": "https://github.com/homanp/RapidAgent.git"
+      "url": "https://github.com/homanp/kurator.git"
     },
     {
       "name": "Discord",
@@ -128,6 +128,6 @@
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/pelaseyed",
-    "github": "https://github.com/homanp/RapidAgent"
+    "github": "https://github.com/homanp/kurator"
   }
 }

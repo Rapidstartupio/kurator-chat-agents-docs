@@ -1,9 +1,9 @@
 version: '3'
 services:
-  rapidagent-docs:
+  kurator-docs:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: rapidagent-docs
+    container_name: kurator-docs
     ports:
       - "3333:3333"

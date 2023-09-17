@@ -1,6 +1,6 @@
 ---
 title: "/documents"
-api: "POST https://api.rapidagent.ai/api/v1/documents"
+api: "POST https://api.kurator.ai/api/v1/documents"
 description: "Create new document."
 authMethod: "bearer"
 ---
@@ -68,13 +68,13 @@ authMethod: "bearer"
 
 <RequestExample>
 ```bash Example Request
-curl --location --request POST 'https://api.rapidagent.ai/api/v1/documents' \
+curl --location --request POST 'https://api.kurator.ai/api/v1/documents' \
 --header 'Content-Type: application/json' \
 --header 'Autorization: Bearer <token>' \
 --data-raw '{
     "name": "My document",
     "type": "PDF",
-    "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q1-2023-Update", 
+    "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q1-2023-Update",
     "authorization": null,
     "splitter": null
 }'

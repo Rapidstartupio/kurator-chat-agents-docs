@@ -1,6 +1,6 @@
 ---
 title: "/api-tokens/{tokenId}"
-api: "DELETE https://api.rapidagent.ai/api/v1/api-tokens/{tokenId}"
+api: "DELETE https://api.kurator.ai/api/v1/api-tokens/{tokenId}"
 description: "Delete a token"
 authMethod: "bearer"
 ---
@@ -23,7 +23,7 @@ authMethod: "bearer"
 
 <RequestExample>
 ```bash Example Request
-curl --location --request DELETE 'https://api.rapidagent.ai/api/v1/api-tokens' \
+curl --location --request DELETE 'https://api.kurator.ai/api/v1/api-tokens' \
 --header 'Content-Type: application/json' \
 --header 'Autorization: Bearer <token>'
 ```
@@ -49,7 +49,7 @@ curl --location --request DELETE 'https://api.rapidagent.ai/api/v1/api-tokens' \
         "Document": null
     },
     "description": "My test token",
-    "token": "1c9d14f44fc7492990148e003541577d"    
+    "token": "1c9d14f44fc7492990148e003541577d"
   }
 }
 ```
